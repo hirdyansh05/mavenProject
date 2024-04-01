@@ -10,4 +10,7 @@ public class MavenProjectApplication {
 		SpringApplication.run(MavenProjectApplication.class, args);
 	}
 
+	public static String message = "Hey this is a message";
+	System.out.println(message);
+
 }
